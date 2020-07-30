@@ -7,6 +7,6 @@ react-native-web react-native/StyleSheet
 
 react-bootstrap ; bootstrap
 
-oreui-free-react-admin-template
+coreui-free-react-admin-template
 
 css
