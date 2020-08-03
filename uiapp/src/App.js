@@ -7,6 +7,7 @@ import {Image} from 'react-native';
 import {StyleSheet, View, Text, Button} from 'react-native-web';
 // use 'react-native-web' instead of 'react-native'
 import {Link} from 'react-router-dom';
+import theme from './Capp_theme';
 
 class App extends Component {
 
@@ -14,11 +15,16 @@ class App extends Component {
 
     return (
 
+     
       <View style={kkk.container}>
         <header className= 'App-header'>
         <Text style={kkk.k_text}>
           Kates React UI !
         </Text>
+        <div className ={kkk.center}>
+          <p>hi!</p>
+
+       </div>
 
         {/* <Image style={kkk.icon} source={require('../assets/product.png')}/> */}
         {/* Module not found: You attempted to import ../assets/product.png 
@@ -127,7 +133,13 @@ const kkk = StyleSheet.create({
     weidth: 20,
     padding: 0,
     resizeMode: 'contain'
-  }
+  },
+
+  center: {
+    padding: 20,
+    border: 3,
+    align: 'center'
+  },
 
 });
 

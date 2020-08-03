@@ -4,29 +4,44 @@ import './index.css';
 import App from './App';
 import Bapp from './Bapp';
 import Capp from './Capp';
+import Dapp from './Dapp';
+import Eapp from './Eapp';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 
 ReactDOM.render(
    <Router>
      <Switch>
 
-       <Route path="/reactnative">
+       <Route path="/reactnative" exact>
 
          <App/>
 
        </Route>
 
-       <Route path="/bootstrap">
+       <Route path="/ks-bootstrap" exact>
 
          <Bapp/>
          
         </Route>
 
 
-       <Route path="/coreui">
+       <Route path="/ks-coreui" exact>
 
         <Capp/>
+
+      </Route>
+
+      <Route path="/ks-css">
+
+          <Dapp/>
+
+      </Route>
+
+      <Route path="/ks-w3css">
+
+          <Eapp/>
 
       </Route>
 

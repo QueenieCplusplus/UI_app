@@ -2,7 +2,7 @@
 // 'react-bootstrap'
 
 import React, {Component} from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Button, ProgressBar, Form} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 class Bapp extends Component{
@@ -42,19 +42,50 @@ class Bapp extends Component{
 
         <Container>
 
+            <div>
+
             <p>Plz input your comment here</p>
 
-            <input onChange = {this.textDoer}>
-            </input>
+            <input onChange = {this.textDoer}/>
 
             <button onClick = {this.pastDoer}> Default Comment </button>
+            </div>
+
+            <br/>
+
+            <Button variant="Default Comment" size="lg" onClick = {this.pastDoer} disabled> Default Bootstrap Comment </Button>{' '}
  
             <p> Show Comment: </p> <p> {this.state.s} </p>
 
             <br/>
             <br/>
 
-            <Row>
+            <div>
+                <ProgressBar animated = {true} now={60} variant="success"/>
+            </div>
+
+            <Form>
+                <Form.Group controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
+
+                <Form.Group controlId="formBasicPassword">
+                    <Form.Label>Password</Form.Label>
+                    <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group controlId="formBasicCheckbox">
+                    <Form.Check type="checkbox" label="Check me out" />
+                </Form.Group>
+
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+
+            </Form>
+            
+
+            {/* <Row in = {true}>
                 <Col> apple </Col><Col> android </Col><Col> web </Col>
             </Row>
             <Row>
@@ -71,7 +102,7 @@ class Bapp extends Component{
                 <Col> 2018 </Col>
                 <Col> 2019 </Col>
                 <Col> 2020 </Col>
-            </Row>
+            </Row> */}
 
             <br/>
 
