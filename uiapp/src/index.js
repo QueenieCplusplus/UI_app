@@ -6,6 +6,7 @@ import Bapp from './Bapp';
 import Capp from './Capp';
 import Dapp from './Dapp';
 import Eapp from './Eapp';
+import Fapp from './Fapp';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -42,6 +43,12 @@ ReactDOM.render(
       <Route path="/ks-w3css">
 
           <Eapp/>
+
+      </Route>
+
+      <Route path="/zoom">
+
+          <Fapp/>
 
       </Route>
 
