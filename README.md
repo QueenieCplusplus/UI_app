@@ -1,14 +1,24 @@
 # UI_app
 comparison among react-native-web, react-bootstrap, core
 
-# UI pkgs Usage:
+# Component & UI pkgs Usage:
 
-react-native-web react-native/StyleSheet
+App.js => react-native-web react-native/StyleSheet
 
-react-bootstrap ; bootstrap
+Bapp.js => react-bootstrap ; bootstrap
 
-coreui-free-react-admin-template
+Capp.js => coreui-free-react-admin-template
 
-css
+Dapp.js => css
 
-w3css
+Eapp.js => w3css using CDN <link/>
+
+Fapp.js => zoomable https://github.com/zsjjs/react-zoomable (to be continued...)
+
+# Reminder:
+
+style 屬性物件中的 width key 輸入值非 string 而是花框 {{width: ""}}。 
+
+     <img src="https://www.w3schools.com/w3css/img_lights.jpg" style={{width:"40%"}} alt="hi a picture here"/>
+
+
