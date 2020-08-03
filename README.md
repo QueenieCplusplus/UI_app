@@ -1,17 +1,19 @@
 # UI_app
 comparison among react-native-web, react-bootstrap, core
 
-# UI pkgs Usage:
+# Component & UI pkgs Usage:
 
-react-native-web react-native/StyleSheet
+App.js => react-native-web react-native/StyleSheet
 
-react-bootstrap ; bootstrap
+Bapp.js => react-bootstrap ; bootstrap
 
-coreui-free-react-admin-template
+Capp.js => coreui-free-react-admin-template
 
-css
+Dapp.js => css
 
-w3css using CDN <link/>
+Eapp.js => w3css using CDN <link/>
+
+Fapp.js => zoomable https://github.com/zsjjs/react-zoomable (to be continued...)
 
 # Reminder:
 
