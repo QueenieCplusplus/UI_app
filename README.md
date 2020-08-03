@@ -13,7 +13,7 @@ Dapp.js => css
 
 Eapp.js => w3css using CDN <link/>
 
-Fapp.js => zoomable https://github.com/zsjjs/react-zoomable (to be continued...)
+Fapp.js => zoomable https://github.com/zsjjs/react-zoomable 
 
 # Reminder:
 
