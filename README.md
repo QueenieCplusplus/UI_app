@@ -13,11 +13,13 @@ Dapp.js => css
 
 Eapp.js => w3css using CDN <link/>
 
-Fapp.js => zoomable https://github.com/zsjjs/react-zoomable (to be continued...)
+Fapp.js => zoomable https://github.com/zsjjs/react-zoomable 
+
+Gapp.js & Iapp.js => react-spring
 
 # Reminder:
 
-style 屬性物件中的 width key 輸入值非 string 而是花框 {{width: ""}}。 
+     style 屬性物件中的 width key 輸入值非 string 而是花框 {{width: ""}}。 
 
      <img src="https://www.w3schools.com/w3css/img_lights.jpg" style={{width:"40%"}} alt="hi a picture here"/>
 
