@@ -30,7 +30,6 @@ class Eapp extends Component {
                     <br/>
                     <br></br>
                 </div>
-              {/* <Image source={require('../assets/poupou.png')}/> */}
 
 
                 <div class="w3-container">

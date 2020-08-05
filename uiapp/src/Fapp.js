@@ -9,9 +9,9 @@ import Zoomable from 'react-stretchable';
 
 class Fapp extends Component {
 
-    constructor(props){
-        super(props);
-    }
+    // constructor(props){
+    //     super(props);
+    // }
 
     render() {
         const testOption = {

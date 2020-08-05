@@ -7,6 +7,9 @@ import Capp from './Capp';
 import Dapp from './Dapp';
 import Eapp from './Eapp';
 import Fapp from './Fapp';
+import Gapp from './Gapp';
+import Happ from './Happ';
+import Iapp from './Iapp';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -52,6 +55,22 @@ ReactDOM.render(
 
       </Route>
 
+      <Route path="/const">
+
+         <Gapp/>
+
+      </Route>
+
+      <Route path="/spring">
+
+         <Happ/>
+
+      </Route>
+      <Route path="/spring2">
+
+            <Iapp/>
+
+      </Route>
      </Switch>
    </Router>,
   document.getElementById('root')

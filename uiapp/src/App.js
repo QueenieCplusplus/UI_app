@@ -7,7 +7,6 @@ import {Image} from 'react-native';
 import {StyleSheet, View, Text, Button} from 'react-native-web';
 // use 'react-native-web' instead of 'react-native'
 import {Link} from 'react-router-dom';
-import theme from './Capp_theme';
 
 class App extends Component {
 
